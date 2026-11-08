@@ -10,9 +10,9 @@
 
 # ---------- 左侧栏 Sidebar ----------
 name: "Your Name"
-tagline: "PhD Candidate in Your Field"
-department: "Department of Your Field"
-institution: "University Name"
+tagline: "PhD Candidate in Statistics"
+department: "Department of Mathematics and Statistics"
+institution: "University of Sydney"
 
 # 照片：把你的照片命名为 photo.jpg，上传到 files 文件夹。这一行不用改
 photo: "/files/photo.jpg"
