@@ -1,0 +1,58 @@
+# =============================================================
+#  ✏️ 网站设置 · Site settings
+#
+#  规则（很重要）：
+#   1. 只改引号 "" 里面的内容
+#   2. 冒号 :、短横线 -、每行开头的空格都不要动（空格数量有意义）
+#   3. 改完后等 1–2 分钟生效。网站没更新？去仓库的 Actions 标签看有没有红色 ✗
+# =============================================================
+
+
+# ---------- 左侧栏 Sidebar ----------
+name: "Your Name"
+tagline: "PhD Candidate in Your Field"
+department: "Department of Your Field"
+institution: "University Name"
+
+# 照片：把你的照片命名为 photo.jpg，上传到 files 文件夹。这一行不用改
+photo: "/files/photo.jpg"
+
+
+# ---------- 左侧栏链接 Links ----------
+# 没有的就改成空引号 ""，那一项会自动隐藏
+links:
+  email: "you@university.edu"
+  google_scholar: "https://scholar.google.com/"   # 换成你的 Scholar 主页链接
+  orcid: "https://orcid.org/"                     # 换成你的 ORCID 链接，例 https://orcid.org/0000-0000-0000-0000
+  github: "https://github.com/"                   # 换成 https://github.com/你的用户名
+  linkedin: ""                                    # 有的话填上
+  cv: "/files/cv.pdf"                             # 把你的简历命名为 cv.pdf，上传到 files 文件夹
+
+
+# ---------- 顶部菜单 Navigation ----------
+# 想加一个页面：复制一组 title + url（两行），改名字和链接
+nav:
+  - title: "About"
+    url: "/"
+  - title: "Publications"
+    url: "/publications/"
+  - title: "Teaching"
+    url: "/teaching/"
+  - title: "CV"
+    url: "/files/cv.pdf"
+
+
+# ---------- 其他 ----------
+# 一句话简介：Google 搜索结果、分享链接时显示
+description: "Personal academic website of Your Name."
+# 网站语言：英文 "en"，中文 "zh-CN"
+lang: "en"
+
+
+# ---------- 以下不用改 ----------
+markdown: kramdown
+kramdown:
+  input: GFM
+exclude:
+  - README.md
+  - GUIDE.md
